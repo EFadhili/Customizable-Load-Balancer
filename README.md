@@ -14,16 +14,16 @@ It demonstrates key distributed systems concepts including:
 ## 📋 Project Structure
 ```
 
-├── server/ # Minimal backend server (Task 1)
+├── server/ # Minimal backend server
 │ ├── app.py
 │ ├── Dockerfile
 │
-├── manager/ # Load Balancer & Consistent Hashing (Tasks 2 & 3)
+├── manager/ # Load Balancer & Consistent Hashing
 │ ├── app.py # Load Balancer Flask App
 │ ├── consistent_hashing.py # Consistent Hashing Implementation
 │ ├── Dockerfile
 │
-├── Analysis/ # Load Distribution Testing (Task 4)
+├── Analysis/ # Load Distribution Testing 
 │ ├── analysis.py # Async Request Load Tester with Graph Output
 │
 ├── docker-compose.yml # Multi-Container Setup
