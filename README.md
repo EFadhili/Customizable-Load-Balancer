@@ -105,7 +105,7 @@ curl http://127.0.0.1:5000/rep
 ```bash
 curl -X POST http://127.0.0.1:5000/add \
 -H "Content-Type: application/json" \
--d '{"n": 2, "hostnames": ["S4", "S5"]}'
+-d '{"n": 2, "hostnames": ["Server 4", "Server 5"]}'
 
 
 ```
@@ -115,7 +115,7 @@ curl -X POST http://127.0.0.1:5000/add \
 ```bash
 curl -X DELETE http://127.0.0.1:5000/rm \
 -H "Content-Type: application/json" \
--d '{"n": 1, "hostnames": ["S4"]}'
+-d '{"n": 1, "hostnames": ["Server 4"]}'
 
 ```
 
