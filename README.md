@@ -18,7 +18,7 @@ It demonstrates key distributed systems concepts including:
 │ ├── app.py
 │ ├── Dockerfile
 │
-├── manager/ # Load Balancer & Consistent Hashing
+├── load_balancer/ # Load Balancer & Consistent Hashing
 │ ├── app.py # Load Balancer Flask App
 │ ├── consistent_hashing.py # Consistent Hashing Implementation
 │ ├── Dockerfile
