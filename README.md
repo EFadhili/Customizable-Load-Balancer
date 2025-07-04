@@ -44,7 +44,7 @@ Each server runs inside a Docker container with its own `SERVER_ID`.
 
 ## ✅ Task 2: Consistent Hashing
 
-Implemented in `manager/consistent_hashing.py`:
+Implemented in `load_balancer/consistent_hashing.py`:
 
 - Uses a hash ring with 512 slots and 9 virtual nodes per server.
 - Maps requests to backend servers consistently.
@@ -55,7 +55,7 @@ Implemented in `manager/consistent_hashing.py`:
 
 ## ✅ Task 3: Load Balancer
 
-Implemented in `manager/app.py` using Flask + Docker SDK:
+Implemented in `load_balancer/app.py` using Flask + Docker SDK:
 
 - `/rep` → View current replicas.
 - `/add` → Add new server instances dynamically.
