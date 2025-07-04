@@ -12,6 +12,7 @@ It demonstrates key distributed systems concepts including:
 ---
 
 ## 📋 Project Structure
+```
 
 ├── server/ # Minimal backend server (Task 1)
 │ ├── app.py
@@ -29,7 +30,7 @@ It demonstrates key distributed systems concepts including:
 ├── README.md # Project Documentation
 
 ---
-
+```
 ## ✅ Task 1: Server
 
 The server (`server/app.py`) is a minimal Flask app with:
